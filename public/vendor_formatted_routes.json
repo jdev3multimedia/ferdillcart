@@ -1,0 +1,458 @@
+[
+    {
+        "routeName": "Vendor Dashboard",
+        "URI": "vendor-panel",
+        "keywords": "Dashboard Warning! More Products Are Low On Stock Remind Me Later Click To View This Product Is Low Stock Want To Get Highlighted Create Ads To Get Highlighted On The App And Web Browser Create Ads Dashboard Order Statistics Overall Statistics Total Earning Commission Given Yearly Statistics Welcome Employee Welcome Message",
+        "bladePath": "vendor-views/dashboard",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Vendor Reviews",
+        "URI": "vendor-panel/reviews",
+        "keywords": "Review List Customers Reviews Reviews Ex Search By Item Name Export Download Options Excel Csv # Review Id Item Reviewer Review Date Reply Date Action Order ID Food Deleted! Customer Not Found View Reply Give Reply Write Your Reply Here Update Reply Send Reply No Data Found",
+        "bladePath": "vendor-views/review/index",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Pos List",
+        "URI": "vendor-panel/pos",
+        "keywords": "POS Orders Products Ex Search Here Search Here Select Category All Categories No Products On Store Pos Search Billing Section Walk In Customer Add New Customer Delivery Information First Name Last Name Email Ex Ex@example Com Phone With Country Code Reset Submit Print Invoice Back Out Of Coverage Product Already Added In Cart Product Has Been Updated In Cart Sorry Product Out Of Stock Product Has Been Added In Cart Cart Please Choose All The Options Item Has Been Removed From Cart Amount Must Be Grater Then This Amount Must Grater Then Order Amount Sorry The Minimum Value Was Reached",
+        "bladePath": "vendor-views/pos/index",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Subscription Package Subscriber Detail",
+        "URI": "vendor-panel/subscription/subscriber-detail",
+        "keywords": "Business Plan Business Details Transactions Subscription Refunds Overview Commission Base Plan Commission To Change Business Plan Subscription Expired Canceled Active Subscription Details Billing Expire Date Total Bill Number Of Uses Package Overview Days Unlimited Trips Unlimited Orders Trips Orders Left POS Mobile App Self Delivery Unlimited Upload Unlimited Item Upload Upload Product Upload Review Chat If You Cancel The Subscription After Days The You Will No Longer Be Able To Run The Business Before Subscribe A New Plan Cancel Subscription Change / Renew Subscription Plan Chose Subscription Plan Chose A Subscription Packages From The List So That Stores Get More Options To Join The Business For The Growth And Success Change Subscription Plan Renew Or Shift Your Plan To Get Better Experience! Commission Base Current Plan You Want To Migrate To Commission You Will Get To Your Wallet For Remaining Days Subscription Plan Shift In This Plan Days Mobile App Chatting Options Review Section Unlimited Orders Trips Unlimited Uploads Uploads Renew Are You Sure You Want To Switch To This Plan You Are About To Downgrade Your Plan After Subscribing To This Plan Your Oldest Items Will Be Inactivated Go Back Are You Sure No Yes Successfully Canceled The Subscription Successfully Switched To Commission",
+        "bladePath": "vendor-views/subscription/subscriber/vendor-subscription",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Subscription Package Subscriber Wallet Transactions",
+        "URI": "vendor-panel/subscription/subscriber-wallet-transactions",
+        "keywords": "Store Transactions Subscription Expired Canceled Active Subscription Details Transactions Subscription Refunds Transaction History All Renewal Migrate To New Plan Purchased Ex Search By Transaction ID Or Store Name Export Download Options Excel Csv Sl Transaction Date Package Name Refund Amount Refunded For Status Days Success No Data Found",
+        "bladePath": "vendor-views/subscription/subscriber/wallet-transaction",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Category Add",
+        "URI": "vendor-panel/category/list",
+        "keywords": "Category Category List Search Categories Ex Categories Export Download Options Excel Csv # Category Id Category Name No Data Found",
+        "bladePath": "vendor-views/category/index",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Add Sub Category",
+        "URI": "vendor-panel/category/sub-category-list",
+        "keywords": "Sub Category Ex Search Sub Category Search Here Export Download Options Excel Csv Pdf # Category Id Main Category Category Deleted No Data Found",
+        "bladePath": "vendor-views/category/sub-index",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Custom Role Create",
+        "URI": "vendor-panel/custom-role/create",
+        "keywords": "Create Role Custom Role Role Form Default Role Name Role Name Example Module Permission Items Orders Store Setup Addons My Wallet Profile Employees My Shop Campaigns Reviews Pos Chat Reset Submit Roles Table Search Role Search Sl# Modules Created At Action Edit Role Want To Delete This Role Delete Role No Data Found",
+        "bladePath": "vendor-views/custom-role/create",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Delivery Man Add",
+        "URI": "vendor-panel/delivery-man/add",
+        "keywords": "Add New Delivery Man Add New Deliveryman General Information First Name Last Name Email Ex Identity Type Passport Driving License Nid Identity Number Identity Image ( Ratio X ) Deliveryman Image Ratio Choose File Account Information Phone Password Must Contain At Least One Number And One Uppercase And Lowercase Letter And Symbol And At Least Or More Characters Confirm Password Reset Submit Drop Here Please Only Input Png Or Jpg Type File File Size Too Big Please Only Input Png Or Jpg Type File File Size Too Big",
+        "bladePath": "vendor-views/delivery-man/index",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Delivery Man List",
+        "URI": "vendor-panel/delivery-man/list",
+        "keywords": "Deliverymen Deliveryman Ex Search Name # Name Availability Status Phone Active Orders Action Currently Assigned Orders Active Status Online Offline Denied Pending Edit Want To Remove This Deliveryman Delete No Data Found",
+        "bladePath": "vendor-views/delivery-man/list",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Reviews List",
+        "URI": "vendor-panel/delivery-man/reviews/list",
+        "keywords": "Deliveryman Reviews # Deliveryman Customer Review Rating Customer Not Found No Data Found",
+        "bladePath": "vendor-views/delivery-man/reviews-list",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Employee Add New",
+        "URI": "vendor-panel/employee/add-new",
+        "keywords": "Employee Add Add New Employee General Information First Name Ex Last Name Phone Role Select Role Employee Image Ratio ( ) Employee Image Size Max MB Choose File Account Information Email Password Must Contain At Least One Number And One Uppercase And Lowercase Letter And Symbol And At Least Or More Characters Confirm Password Reset Submit",
+        "bladePath": "vendor-views/employee/add-new",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Employee List",
+        "URI": "vendor-panel/employee/list",
+        "keywords": "Employee List Employee List Add New Employee Ex Search By Name Or Email Export Download Options Excel Csv # Name Email Phone Role Action Role Deleted Edit Employee Want To Delete This Role Delete Employee N/A No Data Found",
+        "bladePath": "vendor-views/employee/list",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Item Add New",
+        "URI": "vendor-panel/item/add-new",
+        "keywords": "Add New Item Default Item Info Name Default New Item Short Description Item Image Item Images Item Thumbnail Ratio Choose File Item Details Category Select Sub Category Unit Suitable For Select Condition Brand Select Brand Item Type Non Veg Veg Nutrition Specify The Necessary Keywords Relating To Energy Values For The Item Type Your Content And Press Enter Allegren Ingredients Specify The Ingredients Of The Item Which Can Make A Reaction As An Allergen Price Ex Discount Type Percent Amount Discount Total Stock Maximum Purchase Quantity Limit If This Limit Is Exceeded Customers Can Not Buy The Item In A Single Purchase Generic Name Specify The Medicine`s Active Ingredient That Makes It Work Type Your Content Here Is Organic Is Basic Is Prescription Required Is It Halal Food Variations Add New Variation No Variation Added Attribute Addons Addon Tags Search Tags Available Time Schedule Available Time Starts Available Time Ends Reset Submit Required Delete Selcetion Type Multiple Selection Single Selection Min Max Option Name Additional Price Add New Option Choice Title Enter Choice Values Please Only Input Png Or Jpg Type File File Size Too Big",
+        "bladePath": "vendor-views/product/index",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Item List",
+        "URI": "vendor-panel/item/list",
+        "keywords": "Item List Search Data Select Category All Category Select Sub Category All Sub Category All Veg Non Veg Ex Search Name Search Here Add New Item # Name Category Quantity Price Recommended Status Action Category Deleted Recommend To Customers Edit Item Want To Delete This Item Delete Item No Data Found Cancel Update Stock",
+        "bladePath": "vendor-views/product/list",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Item Pending Item List",
+        "URI": "vendor-panel/item/pending/item/list",
+        "keywords": "Item List Pending For Approval Products Item List Ex Search Name Search Here # Name Category Price Status Action Category Deleted Rejected Pending Edit Item Want To Delete This Item Delete Item No Data Found",
+        "bladePath": "vendor-views/product/pending_list",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Item Product Gallery",
+        "URI": "vendor-panel/item/product-gallery",
+        "keywords": "Product Gallery Search Product And Use Its Info To Create Own Product Ex Search Name Search Here Search Product List No Data Found",
+        "bladePath": "vendor-views/product/product_gallery",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Item Stock Limit List",
+        "URI": "vendor-panel/item/stock-limit-list",
+        "keywords": "Low Stock List Ex Search Name Search Here All Veg Non Veg Select Category Main Sub All Categories Name Category Price Stock Action # Category Deleted Edit Quantity No Data Found Cancel Update Stock",
+        "bladePath": "vendor-views/product/stock_limit_list",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Item Bulk Import",
+        "URI": "vendor-panel/item/bulk-import",
+        "keywords": "Item Bulk Import Items Bulk Import STEP Download Excel File Match Spread Sheet Data According To Instruction Validate Data And Complete Import Instructions Download The Format File And Fill It With Proper Data You Can Download The Example File To Understand How The Data Must Be Filled Once You Have Downloaded And Filled The Format File Upload It In The Form Below And Submit You Can Get Store Id Module Id And Unit Id From Their List Please Input The Right Ids For Ecommerce Item Avaliable Time Start And End Will Be And You Can Upload Your Product Images In Product Folder From Gallery And Copy Image`s Path Image File Name Must Be In Character Download Spreadsheet Template Template With Existing Data Template Without Data Import Items File Choose File Reset Update Import Food Variations Generator Add New Variation Generate Generate Variation Attention! You Must Generate Variations From This Generator If You Want To Add Variations To Your Products You Must Copy From The Specific Filed And Past It To The Specific Column At Your Excel Sheet Otherwise You Might Get Error If You Swap Or Entered Invalid Data And If You Want To Make It Empty Then You Have To Enter An Empty Array [ ] Attribute Generate Value Generated Varient This Field Is For Geenrated Variation Copy Them & Paste Into Excel Sheet Generated Choice Option Choice Option Is Required If You Are Using Product Variation Generated Attributes Field Attributes Is Required If You Are Using Product Variation Reset Add New Name Selcetion Type Multiple Selection Single Selection Min Max Required Delete Option Name Additional Price Add New Option Variation Choice Title Enter Choice Values Are You Sure You Want To No Yes",
+        "bladePath": "vendor-views/product/bulk-import",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Item Flash Sale",
+        "URI": "vendor-panel/item/flash-sale",
+        "keywords": "Flash Sales Flash Sale Product Setup Flash Sale Product List Ex Name Sl Product Current Stock Flash Sale Qty Qty Sold Discount Sold Amount Status Off Running Expired No Data Found",
+        "bladePath": "vendor-views/product/flash_sale/list",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Banner List",
+        "URI": "vendor-panel/banner/list",
+        "keywords": "Banner Banner Setup Instructions Note Customer Will See There Banners In Your Store Details Page In Website And User Apps Banner Title Title Here Redirection URL / Link Enter URL Upload Banner Banner Image Ratio Image Format Jpg Png Jpeg | Maximum Size MB Reset Submit Banner List Search By Title Search Here SL Title Banner Image Redirection Link Status Action Edit Banner Want To Delete This Banner Delete Banner No Data Found",
+        "bladePath": "vendor-views/banner/index",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Campaign List",
+        "URI": "vendor-panel/campaign/list",
+        "keywords": "Campaign List Campaign List Ex Search Name Search # Title Image Date Duration Time Duration Status Action Not Approved Confirmed Rejected Rejected Alert Store Out From Campaign Leave Alert Store Join Campaign Join No Data Found",
+        "bladePath": "vendor-views/campaign/list",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Campaign Itemlist",
+        "URI": "vendor-panel/campaign/item/list",
+        "keywords": "Campaign List Item Campaign Search By Title Search Here Sl Title Date Time Price",
+        "bladePath": "vendor-views/campaign/item_list",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Wallet List",
+        "URI": "vendor-panel/wallet",
+        "keywords": "Sl Amount Request Time Disbursement Method Transaction Type Status Note Action Disbursement Method Details Close Default Method Wallet Adjustment Withdraw Request Disbursement Pending Approved Denied Adjusted Amount Partially Adjusted Amount N/A Want To Delete This Delete Complete No Data Found Pay Via Online Faster & Secure Way To Pay Bill No Payment Gateway Found Proceed Adjust Wallet This Will Adjust The Collected Cash On Your Earning Currently There Are No Payment Options Available Please Contact Admin Regarding Any Payment Process Or Queries",
+        "bladePath": "vendor-views/wallet/index",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Wallet Payment List",
+        "URI": "vendor-panel/wallet/wallet-payment-list",
+        "keywords": "Store Wallet Sl Amount Payment Time Payment Method Status Default Method Approved No Data Found Pay Via Online Faster & Secure Way To Pay Bill No Payment Gateway Found Close Proceed Adjust Wallet This Will Adjust The Collected Cash On Your Earning Currently There Are No Payment Options Available Please Contact Admin Regarding Any Payment Process Or Queries",
+        "bladePath": "vendor-views/wallet/payment_list",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Wallet GetDisbursementList",
+        "URI": "vendor-panel/wallet/disbursement-list",
+        "keywords": "Store Wallet Total Disbursements Search By ID Export Download Options Excel Csv Cancel Complete Sl ID Created At Disburse Amount Payment Method Payout Date Status Action Estimated Pending Completed Canceled View Details Payment Information Disbursement ID Store Information Name Contact Owner Information Email Account Information Payment Method Amount No Data Found Pay Via Online Faster & Secure Way To Pay Bill No Payment Gateway Found Close Proceed Adjust Wallet This Will Adjust The Collected Cash On Your Earning Currently There Are No Payment Options Available Please Contact Admin Regarding Any Payment Process Or Queries",
+        "bladePath": "vendor-views/wallet/disbursement",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Wallet Method List",
+        "URI": "vendor-panel/withdraw-method",
+        "keywords": "Store Wallet Disbursement Method Setup Disbursement Methods Ex Search By Name Add New Method Sl Payment Method Name Payment Info Default Action No Data Found Make Default Method Want To Delete This Method Info Delete Method No Data Found Add Method Select Disburse Method Cancel Submit",
+        "bladePath": "vendor-views/wallet-method/index",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Coupon Add New",
+        "URI": "vendor-panel/coupon/add-new",
+        "keywords": "Add New Coupon Add New Coupon Default Title Default New Coupon Coupon Type Free Delivery Code Limit For Same User Ex Start Date Expire Date Discount Type Amount Percent Discount Max Discount Min Purchase Reset Submit Coupon List Ex Search By Title Or Code Search Here Sl Type Total Uses Status Action Edit Coupon Want To Delete This Coupon Delete Coupon No Data Found",
+        "bladePath": "vendor-views/coupon/index",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Advertisement List",
+        "URI": "vendor-panel/advertisement",
+        "keywords": "Advertisement Pending List Advertisement List Uh Oh! You Didn\u2019t Created Any Advertisement Yet Create Ads By Creating Advertisement You Can Showcase Your Items Or Store To A Wider Audience Through Targeted Ad Campaigns Ads List New Advertisement Search By Ads ID Or Store Name Search Here All Ads Running Approved Expired Denied Sl Ads ID Ads Type Ads Title Duration Status Action Paused Expired View Ads Edit & Resubmit Ads Do You Want To Edit Your Ad Is Running If You Edit This Ad It Will Be Listed For Pending And Needs To Be Approved By The Admin After The Approval It Will Be Running Again Yes Edit Edit Ads Are You Sure You Want To Resume The Request This Ad Will Be Run Again And Will Show In The User App & Websites Resume Ads Are You Sure You Want To Pause The Request This Ad Will Be Pause And Not Show In The User App & Websites Pause Ads Copy Ads You Can\u2019t Delete The Ad This Advertisement Is Currently Running To Delete This Ad From The List Please Resume The Ad First Once The Status Is Updated You Can Proceed With Deletion Confirm Ad Deletion Deleting This Ad Will Remove It Permanently Are You Sure You Want To Proceed Delete Ads No Data Found Ad Created Successfully! Congratulations On Creating Your Ad! It\u2019s Now Awaiting Approval To Finalize The Process & Make Payment Arrangements Please Contact Our Admin Directly We Look Forward To Helping You Boost Your Visibility & Reach More Customers Okay",
+        "bladePath": "vendor-views/advertisement/list",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Advertisement Create",
+        "URI": "vendor-panel/advertisement/create",
+        "keywords": "Create Advertisement Default Advertisement Title Default Exclusive Offer Short Description Get Discount Advertisement Type Video Promotion Store Promotion Validity Upload Related Files Upload Your Video  Maximum MB Supports MP WEBM MKV Show Review Ratings Review Rating Profile Image Ratio Supports PNG JPG JPEG WEBP Upload Cover Advertisement Preview Your Browser Does Not Support The Video Tag Title Description Reset Submit",
+        "bladePath": "vendor-views/advertisement/create",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Addon Add New",
+        "URI": "vendor-panel/addon/add-new",
+        "keywords": "Add New Addon Default Name New Addon Price Reset Submit Addon List Ex Search Name # Action Edit Addon Want To Delete This Addon Delete Addon No Data Found",
+        "bladePath": "vendor-views/addon/index",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Business Settings Store Setup",
+        "URI": "vendor-panel/business-settings/store-setup",
+        "keywords": "Settings Provider Setup To View A List Of All Active Zones On Your Admin Landing Page Enable The Available Zones Feature Provider Temporarily Closed Title Are You Sure You Want To Temporarily Close This Provider Store You Want To Open This No Yes Basic Settings Vendor Settings Scheduled Trip Scheduled Order When Enabled Store Owner Can Take Scheduled Orders From Customers Scheduled Order Hint GST If GST Is Enable GST Number Will Show In Invoice Approx Pickup Time Ex Minutes Hours Days Pickup Zone Select Zones From Where Customer Can Choose Their Pickup Locations For Trip Booking Reset Update Provider Meta Data Provider Meta Data & Image Default Meta Title Meta Description Default Meta Image JPG JPEG PNG Less Than MB Ratio Save Changes Provder Active Time Set The Time When Provder Is Active To Show In App And Website Create Schedule For Start Time End Time Submit Want To Delete This Schedule If You Select Yes The Time Schedule Will Be Deleted Schedule Removed Successfully Schedule Added Successfully",
+        "bladePath": "rental::provider/settings/settings",
+        "moduleType": "rental",
+        "isModified": false
+    },
+    {
+        "routeName": "Business Settings Notification Setup",
+        "URI": "vendor-panel/business-settings/notification-setup",
+        "keywords": "Notification Setup From Here You Setup What Types Of Notification You Can Receive From Sl Topics Push Notification Mail SMS N/A This Notification Turned Off By Admin Turn Off Push Notification For Turn On Push Notification For Want To Enable The Push Notification For Want To Disable The Push Notification For Push Notification Will Be Enabled For Push Notification Will Be Disabled For This Mail Turned Off By Admin Turn Off Mail For Turn On Mail For Want To Enable The Mail For Want To Disable The Mail For Mail Will Be Enabled For Mail Will Be Disabled For This Sms Turned Off By Admin Want To Disable The SMS For SMS Will Be Enabled For SMS Will Be Disabled For",
+        "bladePath": "vendor-views/business-settings/notification-index",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Profile View",
+        "URI": "vendor-panel/profile/view",
+        "keywords": "Profile Settings Settings Dashboard Nav Menu Basic Information Password Full Name Your First Name Your Last Name Phone Optional Email Enter New Email Address You Want To Update User Info Save Changes Change Your Password New Password Must Contain At Least One Number And One Uppercase And Lowercase Letter And Symbol And At Least Or More Characters Confirm Password Want To Update Password",
+        "bladePath": "vendor-views/profile/index",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Profile BankView",
+        "URI": "vendor-panel/profile/bank-view",
+        "keywords": "Bank Info View My Bank Info Update Delete Bank Info Delete Add Bank Info Holder Name No Data Found Bank Name Branch Account No Edit Bank Info Branch Name Reset",
+        "bladePath": "vendor-views/profile/bankView",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Shop View",
+        "URI": "vendor-panel/store/view",
+        "keywords": "Store View Name Phone Address Business Plan Admin Commission Subscription Plan Vat/tax Announcement Do You Want To Enable The Announcement Do You Want To Disable The Announcement User Will Able To See The Announcement On The Store Page User Will Not Be Able To See The Announcement On The Store Page Ex ABC Company Publish",
+        "bladePath": "vendor-views/shop/shopInfo",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Expense Report",
+        "URI": "vendor-panel/report/expense-report",
+        "keywords": "Expense Report Search Data All Time This Year Previous Year This Month This Week Custom Start Date End Date Filter Expense Lists Search By Order ID Export Download Options Excel Csv Sl Trip Id Order Id Date & Time Expense Type Customer Name Expense Amount Invalid Trip Data Invalid Order Data Invalid Customer Data No Data Found",
+        "bladePath": "vendor-views/report/expense-report",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Disbursement Report",
+        "URI": "vendor-panel/report/disbursement-report",
+        "keywords": "Disbursement Report Pending Disbursements When The Disbursement Is Pending Full Order Amount Goes To This Section Completed Disbursements When The Disbursement Is Completed Full Order Amount Goes To This Section Canceled Transactions When The Disbursement Is Canceled Full Order Amount Goes To This Section Search Data Select Payment Method All Payment Method Select Status All Status Pending Completed Canceled All Time This Year Previous Year This Month This Week Custom Start Date End Date Filter Total Disbursements Search By Id Export Download Options Excel Csv Sl Id Created At Disburse Amount Payment Method Status Completed No Data Found",
+        "bladePath": "vendor-views/report/disbursement-report",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Vendor ProviderDashboard",
+        "URI": "vendor-panel/provider-dashboard",
+        "keywords": "Dashboard Dashboard Monitor Your Business Delivery Statistics All Time This Year This Month This Week Gross Earnings Earnings Welcome Employee Welcome Message",
+        "bladePath": "rental::provider/dashboard/dashboard",
+        "moduleType": "rental",
+        "isModified": false
+    },
+    {
+        "routeName": "Vehicle List",
+        "URI": "vendor-panel/vehicle/list",
+        "keywords": "Vehicale List Brand Select Vehicle Brand Category Select Vehicle Category Type Select Vehicle Type Family Luxury Affordable Executives Compact Full Size Reset Filter Total Vehicles Search By Vehicle Name Export Download Options Excel Csv New Vehicle Sl Vehicle Info Category Brand Total Trip Trip Fair New Tag Status Action Hourly Distance Wise View Edit Store Want To Delete This Vehicle Delete Vehicle No Data Found",
+        "bladePath": "rental::provider/vehicle/list",
+        "moduleType": "rental",
+        "isModified": false
+    },
+    {
+        "routeName": "Vehicle Create",
+        "URI": "vendor-panel/vehicle/create",
+        "keywords": "Add New Vehicle General Information Insert The Basic Information Of The Vehicle Default Vehicle Name Type Vehicle Name Short Description Default Type Business Address Store Name Store Vehicle Thumbnail JPG JPEG PNG Less Than MB Ratio Please Only Input Png Or Jpg Type File File Size Too Big Click To Upload Or Drag And Drop Images (Ratio ) You Can Upload A Maximum Of Files Vehicle Information Brand Select Vehicle Brand Model Category Select Vehicle Category Type Select Vehicle Type Family Luxury Affordable Executives Compact Full Size Engine Capacity (cc) Engine Power (hp) Seating Capacity Air Condition Yes No Fuel Type Select Fuel Type Select Vehicle Fuel Type Octan Diesel CNG Petrol Electric Jet Fuel Transmission Type Select Vehicle Transmission Automatic Manual Continuously Variable Dual Clutch Semi Automatic Vehicle Identity Same Model Multiple Vehicles VIN Number License Plate Number Pricing & Discounts Insert The Pricing & Discount Informations Distance Wise Price ($) Hourly Distance Wise Hourly Wise Price $/per Hour Distance Wise Price $/per Km Discount Select Discount Search Tags Vehicle Documents Reset Submit Maximum File Upload Limit Is",
+        "bladePath": "rental::provider/vehicle/create",
+        "moduleType": "rental",
+        "isModified": false
+    },
+    {
+        "routeName": "Vehicle Bulk Import",
+        "URI": "vendor-panel/vehicle/bulk-import",
+        "keywords": "Vehicle Bulk Import Items Bulk Import Step Download Excel File Instruction Download The Format File And Fill It With Proper Data You Can Download The Example File To Understand How The Data Must Be Filled Have To Upload Excel File Match Spread Sheet Data According To Instruction Fill Up The Data According To The Format And Validations You Can Get Store Id Module Id And Unit Id From Their List Please Input The Right Ids For Ecommerce Item Avaliable Time Start And End Will Be And If You Want To Create A Product With Variation Just Create Variations From The Generate Variation Section Below And Click Generate Value Copy The Value And Paste The The Spread Sheet File Column Name Variation In The Selected Product Row Validate Data And Complete Import In The Excel File Upload Section First Select The Upload Option Upload Your File In Xls Xlsx Format Finally Click The Upload Button You Can Upload Your Product Images In Product Folder From Gallery And Copy Image`s Path Download Spreadsheet Template With Current Data Without Any Data Select Data Upload Type Upload New Data Update Existing Data Import Items File Must Be Excel Files Using Our Excel Template Above Reset No Yes Are You Sure You Want To Data Upload",
+        "bladePath": "rental::provider/vehicle/bulk-import",
+        "moduleType": "rental",
+        "isModified": false
+    },
+    {
+        "routeName": "Vehicle Category List",
+        "URI": "vendor-panel/vehicle-category/list",
+        "keywords": "Category List Search Categories Ex Categories Reset Export Download Options Image Description Excel Csv Sl Category Id Category Image Category Name No Data Found",
+        "bladePath": "rental::provider/category/list",
+        "moduleType": "rental",
+        "isModified": false
+    },
+    {
+        "routeName": "Trip List",
+        "URI": "vendor-panel/trip",
+        "keywords": "All Trips All Trips Search By Trip ID Customer Name Email Reset Export Download Options Excel Csv Sl Trip ID Booking Date Schedule At Customer Info Driver Info Vehicle Info Trip Type Trip Amount Trip Status Action Guest User Unassigned Car Assigned Vehicle Not Found !!! Vehicles Scheduled Instant Download View No Data Found",
+        "bladePath": "rental::provider/trip/list",
+        "moduleType": "rental",
+        "isModified": false
+    },
+    {
+        "routeName": "Vehicle Brand List",
+        "URI": "vendor-panel/vehicle-brand/list",
+        "keywords": "Brand List Search By Brand Name Ex Categories Reset Export Download Options Image Description Excel Csv Sl Brand Id Brand Image Brand Name No Data Found",
+        "bladePath": "rental::provider/brand/list",
+        "moduleType": "rental",
+        "isModified": false
+    },
+    {
+        "routeName": "Banner List",
+        "URI": "vendor-panel/rental-banner",
+        "keywords": "Banner Banners Add New Banner Default Title Default New Banner Default Link Optional Banner Image JPG JPEG PNG Less Than MB Ratio Click To Upload Or Drag And Drop Reset Submit Banner List Search By Banner Title Export Download Options Excel Csv SL Banner Info Banner Type Featured If You Turn/off On This Featured It Will Effect On Website & User App Status Action Provider Wise By Turning ON As Featured! By Turning OFF As Featured! If You Turn On This Featured Then Promotional Banner Will Show On Website And User App With Store Or Item If You Turn Off This Featured Then Promotional Banner Won\u2019t Show On Website And User App By Turning ON Banner! By Turning OFF Banner! If You Turn On This Status It Will Show On User Website And App If You Turn Off This Status It Won\u2019t Show On User Website And App Edit Banner Want To Delete This Banner No Data Found",
+        "bladePath": "rental::provider/banner/list",
+        "moduleType": "rental",
+        "isModified": false
+    },
+    {
+        "routeName": "Coupon List",
+        "URI": "vendor-panel/rental-coupon",
+        "keywords": "Add New Coupon Add New Coupon Default Title Default New Coupon Coupon Type Free Delivery Code Limit For Same User Ex Start Date Expire Date Min Trip Amount Discount Type Amount Percent Discount Max Discount Reset Submit Coupon List Ex Search By Title Or Code Search Here Sl Type Total Uses Status Action Edit Coupon Want To Delete This Coupon Delete Coupon No Data Found Discount Amount Cannot Be Greater Than Minimum Purchase Amount",
+        "bladePath": "rental::provider/coupon/list",
+        "moduleType": "rental",
+        "isModified": false
+    },
+    {
+        "routeName": "Driver List",
+        "URI": "vendor-panel/driver/list",
+        "keywords": "Driver Drivers All Active Inactive Driver List Search By Driver Name Reset Export Download Options Excel Csv New Driver Sl Driver Info Total Trip Complete Cancel Trip Driver Status Action Edit Store Want To Delete This Driver Delete Driver No Data Found",
+        "bladePath": "rental::provider/driver/list",
+        "moduleType": "rental",
+        "isModified": false
+    },
+    {
+        "routeName": "Driver Create",
+        "URI": "vendor-panel/driver/create",
+        "keywords": "Add New Driver Image User Info First Name Type Your First Name Last Name Type Your Last Name Email Type Your Email Address Phone Ex Profile Image JPG JPEG PNG Less Than MB Ratio Click To Upload Or Drag And Drop Identity Info Identity Type Select Identity Type Passport Driving License Nid Identity Number Identity Image Reset Submit Please Only Input Png Or Jpg Type File File Size Too Big You Can Upload A Maximum Of Files",
+        "bladePath": "rental::provider/driver/create",
+        "moduleType": "rental",
+        "isModified": false
+    },
+    {
+        "routeName": "Trip Report",
+        "URI": "vendor-panel/report/trip-report",
+        "keywords": "Trip Report Search Data All Time This Year Previous Year This Month This Week Custom Start Date End Date Filter Total Trips In Progress Trips This Count Includes All The Pending & Confirmed Trips Ongoing Trips Completed Trips Canceled Trips Total Trips Search By Trip ID Export Download Options Excel Csv Sl Trip Id Customer Info Total Fare Of Vehicle Discount On Vehicle Coupon Discount Referral Discount Total Discounted Amount Tax Additional Charge Total Trip Amount Total Amount Received By Payment Method Trip Status Action Invalid Customer Data Paid Unpaid Not Received Yet Pending Confirmed Ongoing Out For Delivery Completed Payment Failed Handover Canceled Accepted Refund Request Canceled No Data Found",
+        "bladePath": "rental::provider/report/trip-report",
+        "moduleType": "rental",
+        "isModified": false
+    },
+    {
+        "routeName": "Custom Role List",
+        "URI": "vendor-panel/custom-role/list",
+        "keywords": "Create Role Custom Role Role Form Default Role Name Role Name Example Module Permission Trip Vehicle Driver Marketing Store Setup My Wallet Profile Employees My Shop Reviews Chat Report Reset Submit Roles Table Search Role Search Sl# Modules Created At Action Profile Edit Role Want To Delete This Role Delete Role N/A No Data Found",
+        "bladePath": "rental::provider/employee/list",
+        "moduleType": "rental",
+        "isModified": false
+    },
+    {
+        "routeName": "Reviews",
+        "URI": "vendor-panel/rental-reviews",
+        "keywords": "Review List Customers Reviews Reviews Ex Search By Vehicle Name Export Download Options Excel Csv # Review Id Vehicle Reviewer Review Date Reply Date Action Trip ID Vehicle Deleted! Customer Not Found Not Replied Yet View Reply Give Reply Vehicle Deleted Write Your Reply Here Update Reply Send Reply No Data Found",
+        "bladePath": "rental::provider/review/list",
+        "moduleType": "rental",
+        "isModified": false
+    },
+    {
+        "routeName": "Product Bulk Export",
+        "URI": "vendor-panel/item/bulk-export",
+        "keywords": "Item Bulk Export Export Items STEP Select Data Type Select Data Range And Export Type Select Type All Data Date Wise Id Wise Start Id From Date End Id To Date Reset Export",
+        "bladePath": "vendor-views.product.bulk-export",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Chat List",
+        "URI": "vendor-panel/message/list",
+        "keywords": "Conversation List Search View Conversation chat",
+        "bladePath": "vendor-views.messages.index",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Business Settings Config",
+        "URI": "vendor-panel/business-settings/store-setup",
+        "keywords": "Settings Store Setup Store Temporarily Closed Title To View A List Of All Active Zones On Your Admin Landing Page Enable The Available Zones Feature Provider Temporarily Closed Title Store Settings Scheduled Order When Enabled Store Owner Can Take Scheduled Orders From Customers Scheduled Order Hint Delivery When Enabled Customers Can Make Home Delivery Orders From This Store Home Delivery Hint Take Away When Enabled Customers Can Place Takeaway Orders From This Store Take Away Hint Prescription Order Free Delivery If This Option Is On Customers Will Get Free Delivery Veg Non Veg Cutlery Halal Tag Status If Enabled Customers Can See Halal Tag On Product Want To Enable Halal Tag Status For This Restaurant Want To Disable Halal Tag Status For This Restaurant If Disabled Customers Can Not See Halal Tag On Product Store Basic Settings Minimum Order Amount Specify The Minimum Order Amount Required For Customers When Ordering From This Store Self Delivery Hint Minimum Processing Time Minimum Processing Time Warning Approx Delivery Time Set The Total Time To Deliver Products Minimum Delivery Time Maximum Delivery Time Minutes Hours Days Minimum Shipping Charge Delivery Charge Per Km Maximum Delivery Charge It Will Add A Limite On Total Delivery Charge Minimum Stock For Warning When The Stock Of A Product Reaches Its Minimum Value That You Have Set You Will Receive A Warning To Update The Stock Additionally These Products Will Appear In The Admin\u2019s Low Stock List Ex GST If GST Is Enable GST Number Will Show In Invoice Gst Status Extra Packaging Charge Amount By Enabling The Status Customer Will Get The Option For Choosing Extra Packaging Charge When Placing Order For Extra Package Offer Want To Enable Extra Packaging Status For This Restaurant Want To Disable Extra Packaging Status For This Restaurant If Enabled Customers Have To Pay Extra Packaging Charge On Order If Disabled Customers Do Not Have To Pay Extra Packaging Charge On Order Reset Update Store Meta Data Default Meta Title Meta Description Default Store Meta Image Meta Image  Save Changes Daily Time Schedule Create Schedule For Start Time End Time Submit Are You Sure You Want To Temporarily Close This Store You Want To Open This Store No Yes Want To Delete This Schedule If You Select Yes The Time Schedule Will Be Deleted Schedule Removed Successfully Schedule Not Found Schedule Added Successfully config",
+        "bladePath": "vendor-views.business-settings.restaurant-index",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Report VendorTax",
+        "URI": "vendor-panel/report/vendor-tax-report",
+        "keywords": "Vendor Tax Report Tax Report Date Range Select Date Range Filter Total Orders Total Order Amount Total Tax Amount All Taxes Ex Search Selected Export Download Options Excel Csv Sl Order Id Order Date Order Amount Tax Type Tax Amount Action Packaging Charge Total Tax No Data Found Details Payment Status",
+        "bladePath": "vendor-views/report/tax-report/vendor-tax-detail-report",
+        "moduleType": null,
+        "isModified": false
+    },
+    {
+        "routeName": "Report ProviderTax",
+        "URI": "vendor-panel/report/provider-tax-report",
+        "keywords": "Provider Tax Report Tax Report Date Range Select Date Range Filter Total Trips Total Trip Amount Total Tax Amount All Taxes Ex Search Selected Export Download Options Excel Csv Sl Trip Id Trip Date Trip Amount Tax Type Tax Amount Action Trip Wise Sum Of Taxes No Data Found Details Payment Status Order Amount",
+        "bladePath": "rental::provider/report/tax-report/vendor-tax-detail-report",
+        "moduleType": "rental",
+        "isModified": false
+    }
+]

@@ -1,0 +1,213 @@
+
+#map {
+    height: 350px;
+}
+@media only screen and (max-width: 768px) {
+
+    #map {
+        height: 200px;
+    }
+}
+
+.form-container {
+    box-shadow: 4px 4px 10px rgba(65, 83, 179, 0.15);
+    border-radius: 8px;
+    border: 2px solid #b3bac3;
+    padding: 0.625rem;
+}
+
+.row-margin-top {
+    margin-top: 20px;
+}
+
+.cover-photo {
+    margin-inline-start: 150px;
+}
+
+.restaurant-logo {
+    margin-inline-start: 100px;
+    margin-inline-end: 150px;
+}
+
+.store-svg-logo{
+    enable-background:new 0 0 512 512;
+}
+.w-100{
+    width: 100%;
+}
+.recap-img-div{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.recap-img{
+    width: 100%;
+    border-radius: 4px;
+}
+.map-alert{
+    max-width: 340px;
+    width: 60%;
+    position: absolute;
+    inset-inline-start: 50%;
+    bottom: 45px;
+    transform: translateX(-50%);
+    gap: 5px;
+    border-radius: 10px;
+}
+.map_custom-controls #pac-input{
+    background-color: #fff;
+    border: unset;
+    height: 40px;
+    color: #33425780;
+    padding: 4px 12px 4px;
+    border-radius: 3px;
+    left: initial !important;
+    top: 10px !important;
+    inset-inline-end: 60px !important;
+    position: absolute !important;
+    @media screen and (max-width: 575px) {
+       inset-inline-end: auto !important; 
+       width: 210px !important;
+    }
+}
+.map-warper #pac-input {
+    height: 3em;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+#pac-input {
+    display: none;
+}
+#map-canvas #pac-input,
+.gm-style #pac-input,
+#location_map_canvas #pac-input {
+    display: block;
+}
+
+#location_map_canvas #pac-input,
+#map-canvas #pac-input {
+    height: 40px;
+    border: 1px solid #fbc1c1;
+    outline: none;
+    box-shadow: none;
+    top: 7px !important;
+    transform: translateX(7px);
+    padding-inline-start: 10px;
+}
+
+@media (min-width: 576px) {
+    #location_map_canvas #pac-input,
+    #map-canvas #pac-input {
+        width: 200px;
+    }
+}
+#location_map_canvas .gmnoprint,
+#map-canvas .gmnoprint {
+    transform: translateY(10px) !important;
+}
+
+#location_map_canvas .gmnoprint ~ div,
+#map-canvas .gmnoprint ~ div {
+    transform: translateY(10px) !important;
+}
+
+#map #pac-input {
+    height: 40px;
+    border: 1px solid #fbc1c1;
+    outline: none;
+    box-shadow: none;
+    top: 7px !important;
+    transform: translateX(7px);
+    padding-inline-start: 10px;
+}
+@media screen and (max-width: 767px){
+     #map #pac-input {
+        top: 56px !important;
+    }
+}
+
+@media (min-width: 576px) {
+    #map #pac-input {
+        width: 200px;
+    }
+}
+
+.laglng-controller{
+    max-width: 270px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 3.69318px rgba(0, 0, 0, 0.2);
+    border-radius: 3.69318px;
+    padding: 4px 6px;
+    position: absolute;
+    bottom: 16px;
+    inset-inline-start: 50%;
+    transform: translateX(-50%);
+    @media screen and (max-width: 575px){
+        width: 100%;
+    }
+}
+.laglng-controller input{
+    color: var(--title-clr);
+    font-size: 11px;
+    width: 100%;
+}
+
+
+
+/*Landing */
+.tabs-inner {
+  overflow-x: auto;
+  scroll-behavior: smooth; 
+  flex-wrap: nowrap;
+  gap: 19px;
+}
+
+.tabs-inner::-webkit-scrollbar {
+  display: none; 
+}
+.tabs-slide-wrap .button-prev,
+.tabs-slide-wrap .button-next {
+    display: none;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.tabs-slide-wrap .btn-click-prev,
+.tabs-slide-wrap .btn-click-next{
+    width: 34px;
+    height: 34px;
+    min-width: 34px;
+    line-height: 34px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 45px;
+    color: #006FBD;
+    outline: none !important;
+    font-size: 18px !important;
+}
+
+.tabs-slide-wrap .button-prev{
+    top: 25px;
+    left: -15px;
+    width: 35px;
+    height: 86px;
+    background: linear-gradient(-90deg, rgba(255, 255, 255, 0.00) 0%, #FFF 50%);
+    border-radius: 10px 0 0 10px;
+}
+.tabs-slide-wrap .button-next{
+    top: 25px;
+    right: -15px;
+    width: 42px;
+    height: 86px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, #FFF 50%);
+    border-radius: 0 10px 10px 0;
+}
+.tabs-slide-wrap .nav-tabs .nav-item .nav-link{
+    color: #656566;
+}
+.d-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
