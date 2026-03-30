@@ -261,7 +261,8 @@ class UpdateController extends Controller
                 'liqpay',
                 'paytm',
                 'bkash',
-                'paytabs'];
+                'paytabs',
+                'wipay']; //#update2026
 
             $data = BusinessSetting::whereIn('key', $gateway)->pluck('value', 'key')->toArray();
 
@@ -366,6 +367,15 @@ class UpdateController extends Controller
                         'app_secret' => $decoded_value['api_secret'],
                         'username' => $decoded_value['username'],
                         'password' => $decoded_value['password'],
+                    ];
+                } 
+                //#update2026
+                elseif ($gateway == 'wipay') {
+                    $additional_data = [
+                        'status' => $decoded_value['status'] ?? 0,
+                        'account_number' => $decoded_value['account_number'] ?? null,
+                        'api_key' => $decoded_value['api_key'] ?? null,
+                        'environment' => $decoded_value['environment'] ?? 'sandbox', // or live
                     ];
                 }
 

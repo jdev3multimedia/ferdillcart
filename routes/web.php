@@ -5,6 +5,7 @@ use App\Http\Controllers\PaytmController;
 use App\Http\Controllers\LiqPayController;
 use App\Http\Controllers\PaymobController;
 use App\Http\Controllers\PaytabsController;
+use App\Http\Controllers\WipayController;
 use App\Http\Controllers\FirebaseController;
 use App\Http\Controllers\PaystackController;
 use App\Http\Controllers\RazorPayController;
@@ -191,9 +192,19 @@ if (!$is_published) {
             Route::any('callback', [PaytabsController::class, 'callback'])->name('callback');
             Route::any('response', [PaytabsController::class, 'response'])->name('response');
         });
+
+        // WIPAY #update2026
+        Route::group(['prefix' => 'wipay', 'as' => 'wipay.'], function () {
+            Route::get('pay', [WipayController::class, 'pay'])->name('pay');
+            Route::any('callback', [WipayController::class, 'callback'])
+                ->name('callback')
+                ->withoutMiddleware([\App\Http\Middleware\VerifyCsrfToken::class]);
+        });
+
+       
+
     });
 }
-
 
 Route::get('/test', function () {
 dd('Hello tester');

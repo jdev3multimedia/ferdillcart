@@ -28,11 +28,11 @@
   ),
   'vendor_app' => 
   array (
-    'active' => '1',
+    'active' => 1,
     'username' => 'TmdStudio',
     'purchase_key' => '6d24d843-536f-4202-84dc-2348c9e12fa0',
     'software_id' => 'MzY3NzIxNzM=',
-    'domain' => 'portal.ferdillcart.com',
+    'domain' => 'localhost/portal-ferdillcart',
     'software_type' => 'addon',
   ),
   'deliveryman_app' => 

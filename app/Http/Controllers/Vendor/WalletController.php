@@ -258,7 +258,7 @@ class WalletController extends Controller
         $methods = DB::table('addon_settings')->where('is_active',1)->where('settings_type', 'payment_config')
 
             ->when($published_status == 0, function($q){
-                $q->whereIn('key_name', ['ssl_commerz','paypal','stripe','razor_pay','senang_pay','paytabs','paystack','paymob_accept','paytm','flutterwave','liqpay','bkash','mercadopago']);
+                $q->whereIn('key_name', ['ssl_commerz','paypal','stripe','razor_pay','senang_pay','paytabs','paystack','paymob_accept','paytm','flutterwave','liqpay','bkash','mercadopago','wipay']); //#update2026
             })
             ->get();
         $env = env('APP_ENV') == 'live' ? 'live' : 'test';

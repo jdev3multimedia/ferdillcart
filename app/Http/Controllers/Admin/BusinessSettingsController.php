@@ -102,7 +102,7 @@ class BusinessSettingsController extends Controller
 
         case 'payment':
             $digital_payment_methods_count = Setting::whereIn('settings_type', ['payment_config'])
-                ->whereIn('key_name', ['ssl_commerz', 'paypal', 'stripe', 'razor_pay', 'senang_pay', 'paytabs', 'paystack', 'paymob_accept', 'paytm', 'flutterwave', 'liqpay', 'bkash', 'mercadopago'])
+                ->whereIn('key_name', ['ssl_commerz', 'paypal', 'stripe', 'razor_pay', 'senang_pay', 'paytabs', 'paystack', 'paymob_accept', 'paytm', 'flutterwave', 'liqpay', 'bkash', 'mercadopago','wipay']) //#update2026
                 ->where('is_active', 1)
                 ->count();
             $offline_payment_methods_count = \App\Models\OfflinePaymentMethod::where('status', 1)->count();

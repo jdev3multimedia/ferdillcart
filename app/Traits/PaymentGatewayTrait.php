@@ -331,7 +331,11 @@ trait PaymentGatewayTrait
                 "PLN" => "Polish Zloty",
                 "CZK" => "Czech Koruna",
                 "HUF" => "Hungarian Forint"
-            ]
+            ],
+            "wipay" => [
+                "USD" => "United States Dollar",
+                "TTD" => "Trinidad and Tobago Dollar"
+            ],
         ];
 
         if ($key) {
