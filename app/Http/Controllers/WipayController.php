@@ -80,16 +80,16 @@ class WipayController extends Controller
             );
         }
 
-        $data = $this->payment::where([
+        $payment_data = $this->payment::where([
             'id' => $request['payment_id'],
             'is_paid' => 0
         ])->first();
 
-        if (!$data) {
+        if (!$payment_data) {
             return response()->json($this->response_formatter(GATEWAYS_DEFAULT_204), 200);
         }
 
-        $payer = json_decode($data->payer_information);
+        $payer = json_decode($payment_data->payer_information);
 
         /**
          * WIPAY PAYLOAD
@@ -97,17 +97,17 @@ class WipayController extends Controller
         $payload = [
             "account_number" => $this->config_values->account_number ?? "1234567890",
             "country_code"   => $this->config_values->country_code ?? "TT",
-            "currency"       => $this->config_values->currency ?? "TTD",
+            "currency"       => $payment_data->currency_code ?? "USD",
             "environment"    => $this->config_values->environment ?? "sandbox",
             "fee_structure"  => "customer_pay",
             "method"         => "credit_card",
-            "order_id"       => $data->id,
+            "order_id"       => $payment_data->id,
             "origin"         => "your_app",
 
             // ✅ IMPORTANT FIX
-            "response_url"   => route('wipay.callback', ['payment_id' => $data->id]),
+            "response_url"   => route('wipay.callback', ['payment_id' => $payment_data->id]),
 
-            "total"          => number_format($data->payment_amount, 2, '.', ''),
+            "total"          => number_format($payment_data->payment_amount, 2, '.', ''),
 
             "email"          => $payer->email ?? '',
             "name"           => $payer->name ?? '',
